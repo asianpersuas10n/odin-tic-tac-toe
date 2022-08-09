@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mess{
+    font-size: 3rem;
+}
+
+.container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 165px);
+    grid-template-rows: repeat(3, 165px);
+    height: 495px;
+    width: 495px;
+}
+
+div {
+    display: flex;
+    border : 1px solid black;
+}
+
+div div {
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+}
