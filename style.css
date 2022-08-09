@@ -12,15 +12,23 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 .mess{
     font-size: 3rem;
 }
 
+button{
+    height: 1.5rem;
+    width: 7rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
 .container {
     margin-top: 100px;
-    display: grid;
+    display: none;
     grid-template-columns: repeat(3, 165px);
     grid-template-rows: repeat(3, 165px);
     height: 495px;
@@ -36,4 +44,8 @@ div div {
     justify-content: center;
     align-items: center;
     font-size: 10rem;
+}
+
+#retry {
+    display: none;
 }

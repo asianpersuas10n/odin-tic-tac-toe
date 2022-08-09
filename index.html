@@ -8,13 +8,21 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
-    <p class="buttons">
-        <button>Single Player</button>
-        <button>Vs CPU</button>
+    <p class="info">
+        <label for="p1">Player One</label>
+        <input type="text" name="p1" id="p1">
+        <label for="p2">Player Two</label>
+        <input type="text" name="p2" id="p2">
+        <p class="buttons">
+            <button id="start">Start Game</button>
+        </p>
     </p>
     <p class="mess"></p>
     <div class="container">
     </div>
+    <p id="retry" >
+        <button id="retrybtn">Restart Game</button>
+    </p>
 
     <script src="./js.js"></script>
 </body>
